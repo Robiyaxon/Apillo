@@ -2,6 +2,17 @@
 {
   width: 120px;
 }
+.scrollTop {
+  height: 45px;
+  width: 45px;
+  line-height: 43px;
+  border-radius: 50%;
+  background-color: #e50281;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  z-index: 10;
+}
 .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap{
   justify-content: center;
   margin-bottom: 2rem;
