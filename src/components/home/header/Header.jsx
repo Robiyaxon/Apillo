@@ -9,7 +9,6 @@ import { DownloadOutlined } from '@ant-design/icons';
 export const Header = () => {
   return (
     <div className={style.Home}>
-      {/* <h1 className={style.Ravon}>Ramon</h1> */}
       <div className={style.Card1}>
         <img src={img} alt="" />
         <p>Welcome to My World  </p>
