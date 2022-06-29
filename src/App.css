@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+.ant-dropdown-menu, .ant-dropdown-menu-root, .ant-dropdown-menu-vertical, .ant-dropdown-menu-light
+{
+  width: 120px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 2rem;
+  overflow: auto !important;
+  width: 100% !important;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-tabs-tab{
+  background: linear-gradient(103deg, #e3edf7, #ffffff);
+  -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+  box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #08203a;
+  line-height: 1;
+  cursor: pointer;
+    margin: 0 !important;
+  padding: 18px 60px !important;
 }

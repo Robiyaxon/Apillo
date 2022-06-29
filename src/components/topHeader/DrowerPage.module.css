@@ -1,0 +1,110 @@
+.DrowerPage{
+    padding: 0 150px;
+}
+.DrowerPage h1{
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.DrowerPage p{
+    font-size: 16px;
+    width: 600px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container{
+    width: 23%;
+    height: 200px;
+    margin: 50px auto 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .container img{
+    width: 100%;
+  }
+  .container:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .overlay{
+    position: absolute;
+    background-color: rgba(26, 15, 15, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(1.3);
+    opacity: 0;
+    transition: transform .4s ease 0s;
+  }
+  
+  .overlay button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #fff;
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4ce7f3    ;
+    font-family: Sans-serif;
+    cursor: pointer;
+  }
+  
+  .container img{
+    transition: transform .8s ease;
+  }
+  
+  .container:hover img{
+    transform: scale(1.1);
+  }
+  @media(min-width:0) and (max-width:750.9px){
+    .DrowerPage{
+        padding: 0 20px;
+    }
+    .DrowerPage h1{
+        font-size: 26px;
+        width: 100%;
+    }
+    .DrowerPage p{
+        font-size: 16px;
+        width: 100%;
+    }
+    .container{
+        width: 80%;
+      }
+  }
+  @media(min-width:751px) and (max-width:1050.9px){
+    .DrowerPage{
+        padding: 0 30px;
+    }
+    .DrowerPage h1{
+        font-size: 26px;
+        width: 100%;
+    }
+    .DrowerPage p{
+        font-size: 16px;
+        width: 100%;
+    }
+    .container{
+        width: 47%;
+      }
+  }
+  @media(min-width:1051px) and (max-width:1250.9px){
+    .DrowerPage{
+        padding: 0 40px;
+    }
+  }

@@ -1,0 +1,190 @@
+.Portfolio {
+    padding: 100px 150px;
+    background: #e3edf7;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+    color: #e70280;
+    margin-bottom: 13px;
+    text-align: center;
+
+}
+
+.description {
+    font-size: 48px;
+    font-weight: 700;
+    color: #08203a;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.Tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Block {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 49%;
+    border-radius: 5px;
+    background: linear-gradient(119deg, #e3edf7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    margin-bottom: 30px;
+}
+
+.Card1 h2 {
+    -webkit-box-shadow: inset -3px -2px 5px 0px rgb(255 255 255 / 66%), inset -1px -1px 0px 0px rgb(255 255 255 / 18%), inset 2px 2px 7px 0px rgb(49 69 106 / 18%);
+    box-shadow: inset -3px -2px 5px 0px rgb(255 255 255 / 66%), inset -1px -1px 0px 0px rgb(255 255 255 / 18%), inset 2px 2px 7px 0px rgb(49 69 106 / 18%);
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: #08203a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 22px;
+    display: inline-block;
+}
+
+.Card1 {
+    width: 48%;
+}
+
+.Card2 {
+    width: 48%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.Card2 img {
+    width: 100%;
+    transition: 0.7s all linear;
+    cursor: pointer;
+}
+
+.Card2 img:hover {
+    transform: scale(1.9);
+    -webkit-transform: scale(1.5) rotate(15deg);
+}
+
+.Card1 h1 {
+    font-size: 22px;
+    color: #08203a;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    width: 100%;
+    font-weight: 700;
+}
+
+.Card1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    width: 100%;
+    color: #08203a;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.Card1 button {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #08203a;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(103deg, #e3edf7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    display: inline-block;
+    padding: 13px 20px 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    position: relative;
+    z-index: 0;
+    border: none;
+}
+
+@media(min-width:0) and (max-width:650.9px) {
+    .Portfolio {
+        padding: 100px 20px;
+        background: #e3edf7;
+    }
+    .title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1;
+        font-family: "Roboto", sans-serif;
+        color: #e70280;
+        margin-bottom: 13px;
+        text-align: center;
+
+    }
+    .Block {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .description {
+        font-size: 38px;
+        width: 100%;
+    }
+    .Card2{
+        width: 100%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .Card2 img{
+        
+        width: 70%;
+    }
+    .Card1 {
+        width: 100%;
+    }
+}
+@media(min-width:651px) and (max-width:850.9px) {
+    .Portfolio {
+        padding: 100px 40px;
+        background: #e3edf7;
+    }
+    .title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1;
+        font-family: "Roboto", sans-serif;
+        color: #e70280;
+        margin-bottom: 13px;
+        text-align: center;
+
+    }
+    .Block {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .description {
+        font-size: 38px;
+        width: 100%;
+    }
+    .Card2{
+        width: 45%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .Card1 {
+        width: 45%;
+    }
+}
+@media(min-width:851px) and (max-width:1250.9px) {
+    .Portfolio {
+        padding: 100px 40px;
+        background: #e3edf7;
+    }
+}

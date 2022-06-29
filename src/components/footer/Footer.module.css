@@ -1,0 +1,55 @@
+.Footer{
+    padding: 100px 0px 30px 0px;
+    text-align: center;
+    background-image: url("../../assest/footer/footer.jpg");
+    background-color: #e3edf7;
+    background-size: 100% 100%;
+}
+.Footer p{
+
+    width: 500px;
+    margin: 1rem auto;
+}
+.href{
+    border-style: solid;
+    border-width: 1.5px 1.5px 1.5px 1.5px;
+    border-color: #08203A;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 6rem;
+}
+.href a{
+    color: #08203A;
+    font-size: 23px;
+}
+.href:hover a{
+color: white;
+}
+.href:hover{
+    background-image: linear-gradient(to right, #590fb7 0%, #ff0076 100%);
+}
+.Block2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Footer h4{
+  margin-top: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #08203a;
+  font-size: 18px;
+}
+@media(min-width:0) and (max-width:750px){
+    .Footer p{
+        width: 100%;
+        margin: 1rem auto;
+    }
+}

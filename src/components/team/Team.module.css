@@ -1,0 +1,295 @@
+.Team {
+    background: #e3edf7;
+    padding: 0 100px;
+}
+
+.Title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+    color: #e70280;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.Team h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #08203a;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.25;
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+}
+
+.Block_Card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Card1 {
+    padding: 40px 20px;
+    background: linear-gradient(103deg, #e3edf7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 22px;
+    -webkit-box-shadow: inset -3px -2px 5px 0px rgb(255 255 255 / 66%), inset -1px -1px 0px 0px rgb(255 255 255 / 18%), inset 2px 2px 7px 0px rgb(49 69 106 / 18%);
+    box-shadow: inset -3px -2px 5px 0px rgb(255 255 255 / 66%), inset -1px -1px 0px 0px rgb(255 255 255 / 18%), inset 2px 2px 7px 0px rgb(49 69 106 / 18%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.testimotionals {
+    width: 260px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.testimotionals .card {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    background: linear-gradient(103deg, #e3edf7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.testimotionals .card .layer {
+    z-index: 1;
+    position: absolute;
+    bottom: calc(100% - 2px);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-image: linear-gradient(to right, #590fb7 0%, #ff0076 100%);
+    transition: 0.5s;
+
+}
+
+.testimotionals .card .content {
+    z-index: 2;
+    position: relative;
+}
+
+.testimotionals .card:hover .layer {
+    bottom: 0;
+}
+
+.testimotionals .card:hover .content h2 {
+    color: white;
+}
+
+.testimotionals .card:hover .content button {
+    background-image: linear-gradient(to right, #590fb7 0%, #ff0076 100%);
+    box-shadow: -4px -3px 8px 0px rgb(122 247 169 / 25%), 5px 5px 15px 0px rgb(100 14 179 / 30%);
+    transition: all 0.3s ease-in;
+    color: white;
+}
+
+.testimotionals .card:hover .icon {
+    color: white;
+}
+
+.testimotionals .card:hover .content p {
+    color: white;
+}
+
+.testimotionals .card .content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+
+}
+
+.content h2 {
+    color: #08203a;
+    font-size: 22px;
+    margin-top: 1rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 1;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.content button {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #08203a;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(103deg, #e3edf7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    display: inline-block;
+    padding: 13px 20px 16px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    border: none;
+    margin-top: 2rem;
+}
+
+.Project {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    justify-content: space-between;
+    background: linear-gradient(103deg, #e3edf7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    border-radius: 5px;
+    padding: 0 70px;
+}
+
+.Project img {
+    margin-top: -4rem;
+}
+
+.Project p {
+    font-size: 22px;
+    font-weight: 700;
+    color: #e30281;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.1;
+    margin-bottom: 16px;
+}
+
+.Project h2 {
+    font-size: 48px;
+    color: #08203a;
+    font-family: "Poppins", sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.Project button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-right: 34px;
+    background-image: linear-gradient(to right, #590fb7 0%, #ff0076 100%);
+    color: white;
+    font-weight: bolder;
+}
+
+@media(min-width:0) and (max-width:650.9px) {
+    .Team {
+        background: #e3edf7;
+        padding: 0 10px;
+    }
+.Project{
+    padding: 2rem 0.4rem;
+    margin-top:70px;
+}
+    .Project img {
+        display: none;
+    }
+
+    .Project h2 {
+        font-size: 38px;
+        color: #08203a;
+        font-family: "Poppins", sans-serif;
+        line-height: 1;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .Title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .Block_Card {
+        padding: 0 1rem;
+    }
+
+    .Team h1 {
+        font-size: 38px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .testimotionals {
+        width: 100%;
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+}
+
+@media(min-width:651px) and (max-width:950.9px) {
+    .Team {
+        background: #e3edf7;
+        padding: 0 20px;
+    }
+
+    .Title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .Block_Card {
+        padding: 0 1rem;
+    }
+
+    .Team h1 {
+        font-size: 38px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .testimotionals {
+        width: 48%;
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+}
+
+@media(min-width:951px) and (max-width:1300.9px) {
+    .Team {
+        background: #e3edf7;
+        padding: 0 40px;
+    }
+
+    .testimotionals {
+        width: 32%;
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+}

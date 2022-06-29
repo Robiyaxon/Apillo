@@ -1,0 +1,104 @@
+.Contact{
+    padding: 3rem 150px;
+    background-color: #e3edf7;
+}
+.Contact p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+    color: #e70280;
+    margin-bottom: 13px;
+}
+.Contact h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #08203a;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.25;
+    text-align: center;
+}
+.Contact h2{
+    font-size: 16px;
+    color: #08203a;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0;
+    text-align: center;
+}
+.Client{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+.testimotionals img{
+    width: 60%;
+}
+.testimotionals {
+    width: 24%;}
+
+
+.testimotionals .card {
+    position: relative;
+    overflow: hidden;
+    height: 104px;
+    margin: 0 auto;
+    background: linear-gradient(103deg, #e3edf7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+display: flex;
+align-items: center;
+}
+
+.testimotionals .card .layer {
+    z-index: 1;
+    position: absolute;
+    bottom: calc(100% - 2px);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-image: linear-gradient(to right, #590fb7 0%, #ff0076 100%);
+    transition: 0.5s;
+
+}
+
+.testimotionals .card .content {
+    z-index: 2;
+    position: relative;
+}
+
+.testimotionals .card:hover .layer {
+    bottom:  0;
+}
+@media(min-width:0) and (max-width:750.9px){
+    .Contact{
+        padding: 3rem 20px;
+    }
+    .Contact h1{
+        font-size: 38px;
+    }
+    .testimotionals {
+        margin: 0.5rem 0;
+        width: 85%;}
+        .Client{
+            justify-content:center;
+        }
+}
+@media(min-width:751px) and (max-width:1250.9px){
+    .Contact{
+        padding: 3rem 50px;
+    }
+    .testimotionals {
+        margin: 0.5rem 0;
+        width: 45%;}
+}
+@media(min-width:1251px) and (max-width:1350.9px){
+    .Contact{
+        padding: 3rem 100px;
+    }
+}

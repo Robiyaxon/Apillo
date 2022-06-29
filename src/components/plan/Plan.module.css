@@ -1,0 +1,208 @@
+.Plan {
+    padding: 3rem 150px;
+    background-image: url("../../assest/portfolio/doira.png");
+    background-repeat: no-repeat;
+    background-color: #e3edf7;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+    color: #e70280;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.description {
+    font-size: 48px;
+    font-weight: 700;
+    color: #08203a;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.label {
+    font-size: 16px;
+    color: #08203a;
+    font-weight: 400;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.Card1 {
+    background: -webkit-gradient(linear, left top, right bottom, from(#e4eef7), to(#ffffff));
+    background: linear-gradient(to bottom right, #e4eef7, #ffffff);
+
+
+}
+
+.Card2 {
+    background: -webkit-gradient(linear, left bottom, right top, from(#ff0076), to(#590fb7));
+    background: linear-gradient(to top right, #ff0076, #590fb7);
+}
+
+.Card1,
+.Card2 {
+    padding: 40px 0;
+    width: 32%;
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Blog {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.Doller {
+
+    color: #08203a;
+
+}
+
+.Doller2 {
+    color: white;
+}
+
+.Doller2,
+.Doller {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.Header__Plan,
+.Header__Plan2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.Header__Plan {
+    color: #08203a;
+}
+
+.Header__Plan2 {
+    color: white;
+}
+
+.Text,
+.Text2 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.Text2 {
+    color: white;
+}
+
+.Text {
+    color: #08203a;
+}
+
+.button1,
+.button2 {
+    border: none;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 13px 20px 16px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    z-index: 0;
+}
+.button2{
+    background: -webkit-gradient(linear, left top, right top, from(#590fb7), to(#ff0076));
+    background: linear-gradient(to right, #590fb7, #ff0076);
+    color: #ffffff;
+    -webkit-box-shadow: -4px -3px 8px 0px rgb(255 129 201 / 25%), 5px 5px 15px 0px rgb(89 15 183 / 42%);
+    box-shadow: -4px -3px 8px 0px rgb(255 129 201 / 25%), 5px 5px 15px 0px rgb(89 15 183 / 42%);
+}
+.button1 {
+
+    color: #08203a;
+
+    background: -webkit-gradient(linear, left top, right bottom, from(#e4eef7), to(#ffffff));
+    background: linear-gradient(to bottom right, #e4eef7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    display: inline-block;
+
+}
+@media(min-width:0) and (max-width:650.9px){
+    .Plan {
+        padding: 3rem 20px;
+    }
+    .description {
+        font-size: 38px;
+    }
+    
+    .label {
+        font-size: 16px;
+        width: 100%;
+    }
+    .Blog{
+        justify-content: center;
+    }
+    .Card1,
+.Card2 {
+    padding: 30px 0;
+    width: 90%;
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0.6rem 0;
+}
+}
+@media(min-width:651px) and (max-width:950.9px){
+    .Plan {
+        padding: 3rem 40px;
+    }
+    .description {
+        font-size: 42px;
+    }
+    
+    .label {
+        width: 100%;
+    }
+    .Card1,
+.Card2 {
+    padding: 30px 0;
+    width: 48%;
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0.6rem 0;
+}
+}
+@media(min-width:951px) and (max-width:1350.9px){
+    .Plan {
+        padding: 3rem 40px;
+    }
+}

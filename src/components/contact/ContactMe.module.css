@@ -1,0 +1,190 @@
+.ContactMe {
+    padding: 3rem 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #e3edf7;
+}
+
+.Card2,
+.Card1 {
+    width: 48%;
+}
+
+.Card1 p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+    color: #e70280;
+    margin-bottom: 13px;
+}
+
+.Card1 h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #08203a;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.25;
+}
+
+.Card2 h2 {
+    font-size: 16px;
+    color: #08203a;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.WrapperInput {
+    width: 48%;
+    margin-top: 2rem;
+    padding: 40px 20px;
+    background: -webkit-gradient(linear, left top, right bottom, from(#e4eef7), to(#ffffff));
+    background: linear-gradient(to bottom right, #e4eef7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    border-radius: 5px;
+}
+
+.InputType {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Input1 {
+    width: 45%;
+}
+
+.Input2,
+.Input1,
+.Input4 {
+    margin-bottom: 20px;
+    background: #e9f1f9;
+    border: 1px solid #e7e7e7;
+    padding: 13px 20px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.Input4 {
+    height: 120px;
+    width: 100%;
+}
+
+.Input2 {
+    width: 100%;
+}
+
+.testimotionals .card {
+    position: relative;
+    overflow: hidden;
+    width: 170px;
+    height: 63px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, #590fb7 0%, #ff0076 100%);
+
+    box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.testimotionals .card .layer {
+    z-index: 1;
+    position: absolute;
+    bottom: calc(100% - 2px);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: linear-gradient(103deg, #e3edf7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, 4px 3px 15px 0px rgb(127 163 199 / 30%);
+    transition: 0.5s;
+
+}
+
+.testimotionals .card .content {
+    z-index: 2;
+    position: relative;
+}
+
+.testimotionals .card:hover .layer {
+    bottom: 0;
+}
+.Conact{
+    padding: 40px 20px;
+    width: 48%;
+    box-sizing: border-box;
+    background: -webkit-gradient(linear, left top, right bottom, from(#e4eef7), to(#ffffff));
+    background: linear-gradient(to bottom right, #e4eef7, #ffffff);
+    -webkit-box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    box-shadow: -6px -6px 10px 0px #f5f9fc, -4px 3px 15px 0px #7fa3c7;
+    padding: 40px 20px 40px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.Conact img{
+    transition   : 0.7s all linear;
+    cursor: pointer;
+    width: 100%;
+}
+.Conact img:hover{
+    transform: scale(1.1);
+}
+@media(min-width:0) and (max-width:950.9px){
+    .ContactMe {
+        padding: 3rem 20px;
+    }
+    .Card1 p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .Card1{
+        width: 100%;
+    }
+    .Card1 h2 {
+        font-size: 38px;
+        text-align: center;
+    }
+    
+    .Card2  {
+       display: none;
+    }
+    .WrapperInput {
+        width: 100%;
+    }
+    .Conact{
+        width:100%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .Conact img{
+        width: 80%;
+    }
+}
+@media(min-width:951px) and (max-width:1350.9px){
+    .ContactMe {
+        padding: 3rem 50px;
+    }
+    .Card1 h2 {
+        font-size: 38px;
+        text-align: center;
+    }
+    .Conact img{
+        width: 80%;
+    }
+}
